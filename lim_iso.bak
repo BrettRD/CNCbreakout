@@ -1,0 +1,1138 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:references
+LIBS:CNCbreakout-cache
+EELAYER 25 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 3 6
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Q_NPN_CBE Q?
+U 1 1 5791DC8A
+P 5100 1800
+F 0 "Q?" H 5400 1850 50  0000 R CNN
+F 1 "Q_NPN_CBE" H 5700 1750 50  0000 R CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5300 1900 50  0001 C CNN
+F 3 "" H 5100 1800 50  0000 C CNN
+	1    5100 1800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5791DC8B
+P 6150 1500
+F 0 "R?" V 6230 1500 50  0000 C CNN
+F 1 "2K5" V 6150 1500 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 6080 1500 50  0001 C CNN
+F 3 "" H 6150 1500 50  0000 C CNN
+	1    6150 1500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5791DC8C
+P 6700 1850
+F 0 "R?" V 6780 1850 50  0000 C CNN
+F 1 "10K" V 6700 1850 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 6630 1850 50  0001 C CNN
+F 3 "" H 6700 1850 50  0000 C CNN
+	1    6700 1850
+	1    0    0    -1  
+$EndComp
+Text GLabel 5400 2100 0    60   Input ~ 0
+GND
+$Comp
+L Q_NPN_CBE Q?
+U 1 1 5791DC8D
+P 6300 1800
+F 0 "Q?" H 6200 1900 50  0000 R CNN
+F 1 "Q_NPN_CBE" H 6350 2000 50  0000 R CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6500 1900 50  0001 C CNN
+F 3 "" H 6300 1800 50  0000 C CNN
+	1    6300 1800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 2000 6300 2000
+Wire Wire Line
+	5400 2100 5400 2000
+Connection ~ 5400 2000
+Wire Wire Line
+	6000 1600 6000 1500
+Wire Wire Line
+	5600 1600 6200 1600
+$Comp
+L R R?
+U 1 1 5791DC8E
+P 6450 2000
+F 0 "R?" V 6530 2000 50  0000 C CNN
+F 1 "10K" V 6450 2000 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 6380 2000 50  0001 C CNN
+F 3 "" H 6450 2000 50  0000 C CNN
+	1    6450 2000
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5791DC8F
+P 6700 1400
+F 0 "D?" H 6700 1500 50  0000 C CNN
+F 1 "LED" H 6700 1300 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 6700 1400 50  0001 C CNN
+F 3 "" H 6700 1400 50  0000 C CNN
+	1    6700 1400
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6200 2000
+Connection ~ 6000 1600
+$Comp
+L LED D?
+U 1 1 5791DC90
+P 5800 1900
+F 0 "D?" H 5800 2000 50  0000 C CNN
+F 1 "LED" H 5800 1800 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 5800 1900 50  0001 C CNN
+F 3 "" H 5800 1900 50  0000 C CNN
+	1    5800 1900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5791DC91
+P 5450 1600
+F 0 "R?" V 5530 1600 50  0000 C CNN
+F 1 "5K" V 5450 1600 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 5380 1600 50  0001 C CNN
+F 3 "" H 5450 1600 50  0000 C CNN
+	1    5450 1600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5300 1600 5300 1800
+Connection ~ 5600 2000
+$Comp
+L R R?
+U 1 1 5791DC92
+P 5850 1700
+F 0 "R?" V 5930 1700 50  0000 C CNN
+F 1 "5K" V 5850 1700 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 5780 1700 50  0001 C CNN
+F 3 "" H 5850 1700 50  0000 C CNN
+	1    5850 1700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 1700 5700 1600
+Connection ~ 5700 1600
+Wire Wire Line
+	6000 1700 6000 1900
+Wire Wire Line
+	5600 1900 5600 2000
+Wire Wire Line
+	6500 1800 6600 1800
+Wire Wire Line
+	6600 1800 6600 2000
+Wire Wire Line
+	6600 2000 6700 2000
+Wire Wire Line
+	6700 1600 6700 1700
+Text GLabel 6300 1300 0    60   Input ~ 0
++24V
+Wire Wire Line
+	6300 1300 6300 1500
+$Comp
+L Q_NPN_CBE Q?
+U 1 1 5791DC93
+P 5100 2800
+F 0 "Q?" H 5400 2850 50  0000 R CNN
+F 1 "Q_NPN_CBE" H 5700 2750 50  0000 R CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5300 2900 50  0001 C CNN
+F 3 "" H 5100 2800 50  0000 C CNN
+	1    5100 2800
+	-1   0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5791DC94
+P 6150 2500
+F 0 "R?" V 6230 2500 50  0000 C CNN
+F 1 "2K5" V 6150 2500 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 6080 2500 50  0001 C CNN
+F 3 "" H 6150 2500 50  0000 C CNN
+	1    6150 2500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5791DC95
+P 6700 2850
+F 0 "R?" V 6780 2850 50  0000 C CNN
+F 1 "10K" V 6700 2850 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 6630 2850 50  0001 C CNN
+F 3 "" H 6700 2850 50  0000 C CNN
+	1    6700 2850
+	1    0    0    -1  
+$EndComp
+Text GLabel 5400 3100 0    60   Input ~ 0
+GND
+$Comp
+L Q_NPN_CBE Q?
+U 1 1 5791DC96
+P 6300 2800
+F 0 "Q?" H 6200 2900 50  0000 R CNN
+F 1 "Q_NPN_CBE" H 6350 3000 50  0000 R CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6500 2900 50  0001 C CNN
+F 3 "" H 6300 2800 50  0000 C CNN
+	1    6300 2800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5000 3000 6300 3000
+Wire Wire Line
+	5400 3100 5400 3000
+Connection ~ 5400 3000
+Wire Wire Line
+	6000 2600 6000 2500
+Wire Wire Line
+	5550 2600 6200 2600
+$Comp
+L R R?
+U 1 1 5791DC97
+P 6450 3000
+F 0 "R?" V 6530 3000 50  0000 C CNN
+F 1 "10K" V 6450 3000 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 6380 3000 50  0001 C CNN
+F 3 "" H 6450 3000 50  0000 C CNN
+	1    6450 3000
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5791DC98
+P 6700 2400
+F 0 "D?" H 6700 2500 50  0000 C CNN
+F 1 "LED" H 6700 2300 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 6700 2400 50  0001 C CNN
+F 3 "" H 6700 2400 50  0000 C CNN
+	1    6700 2400
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6200 3000
+Connection ~ 6000 2600
+$Comp
+L LED D?
+U 1 1 5791DC99
+P 5800 2900
+F 0 "D?" H 5800 3000 50  0000 C CNN
+F 1 "LED" H 5800 2800 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 5800 2900 50  0001 C CNN
+F 3 "" H 5800 2900 50  0000 C CNN
+	1    5800 2900
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5300 2600 5300 2800
+Connection ~ 5600 3000
+$Comp
+L R R?
+U 1 1 5791DC9A
+P 5850 2700
+F 0 "R?" V 5930 2700 50  0000 C CNN
+F 1 "5K" V 5850 2700 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 5780 2700 50  0001 C CNN
+F 3 "" H 5850 2700 50  0000 C CNN
+	1    5850 2700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 2700 5700 2600
+Connection ~ 5700 2600
+Wire Wire Line
+	6000 2700 6000 2900
+Wire Wire Line
+	5600 2900 5600 3000
+Wire Wire Line
+	6500 2800 6600 2800
+Wire Wire Line
+	6600 2800 6600 3000
+Wire Wire Line
+	6600 3000 6700 3000
+Wire Wire Line
+	6700 2600 6700 2700
+Text GLabel 6300 2300 0    60   Input ~ 0
++24V
+Wire Wire Line
+	6300 2300 6300 2500
+$Comp
+L R R?
+U 1 1 5791DC9B
+P 6150 3500
+F 0 "R?" V 6230 3500 50  0000 C CNN
+F 1 "5K" V 6150 3500 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 6080 3500 50  0001 C CNN
+F 3 "" H 6150 3500 50  0000 C CNN
+	1    6150 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5791DC9C
+P 6700 3850
+F 0 "R?" V 6780 3850 50  0000 C CNN
+F 1 "10K" V 6700 3850 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 6630 3850 50  0001 C CNN
+F 3 "" H 6700 3850 50  0000 C CNN
+	1    6700 3850
+	1    0    0    -1  
+$EndComp
+Text GLabel 5400 4000 0    60   Input ~ 0
+GND
+$Comp
+L Q_NPN_CBE Q?
+U 1 1 5791DC9D
+P 6300 3800
+F 0 "Q?" H 6200 3900 50  0000 R CNN
+F 1 "Q_NPN_CBE" H 6350 4000 50  0000 R CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6500 3900 50  0001 C CNN
+F 3 "" H 6300 3800 50  0000 C CNN
+	1    6300 3800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 3600 6000 3500
+Wire Wire Line
+	5600 3600 6200 3600
+$Comp
+L R R?
+U 1 1 5791DC9E
+P 6450 4000
+F 0 "R?" V 6530 4000 50  0000 C CNN
+F 1 "10K" V 6450 4000 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 6380 4000 50  0001 C CNN
+F 3 "" H 6450 4000 50  0000 C CNN
+	1    6450 4000
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5791DC9F
+P 6700 3400
+F 0 "D?" H 6700 3500 50  0000 C CNN
+F 1 "LED" H 6700 3300 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 6700 3400 50  0001 C CNN
+F 3 "" H 6700 3400 50  0000 C CNN
+	1    6700 3400
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6200 4000
+Connection ~ 6000 3600
+$Comp
+L LED D?
+U 1 1 5791DCA0
+P 5800 3900
+F 0 "D?" H 5800 4000 50  0000 C CNN
+F 1 "LED" H 5800 3800 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 5800 3900 50  0001 C CNN
+F 3 "" H 5800 3900 50  0000 C CNN
+	1    5800 3900
+	1    0    0    -1  
+$EndComp
+Connection ~ 5600 4000
+$Comp
+L R R?
+U 1 1 5791DCA1
+P 5850 3700
+F 0 "R?" V 5930 3700 50  0000 C CNN
+F 1 "5K" V 5850 3700 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 5780 3700 50  0001 C CNN
+F 3 "" H 5850 3700 50  0000 C CNN
+	1    5850 3700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 3700 5700 3600
+Connection ~ 5700 3600
+Wire Wire Line
+	6000 3700 6000 3900
+Wire Wire Line
+	5600 3900 5600 4000
+Wire Wire Line
+	6500 3800 6600 3800
+Wire Wire Line
+	6600 3800 6600 4000
+Wire Wire Line
+	6600 4000 6700 4000
+Wire Wire Line
+	6700 3600 6700 3700
+Text GLabel 6300 3300 0    60   Input ~ 0
++24V
+Wire Wire Line
+	6300 3300 6300 3500
+$Comp
+L R R?
+U 1 1 5791DCA2
+P 6150 4500
+F 0 "R?" V 6230 4500 50  0000 C CNN
+F 1 "5K" V 6150 4500 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 6080 4500 50  0001 C CNN
+F 3 "" H 6150 4500 50  0000 C CNN
+	1    6150 4500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5791DCA3
+P 6700 4850
+F 0 "R?" V 6780 4850 50  0000 C CNN
+F 1 "10K" V 6700 4850 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 6630 4850 50  0001 C CNN
+F 3 "" H 6700 4850 50  0000 C CNN
+	1    6700 4850
+	1    0    0    -1  
+$EndComp
+Text GLabel 5400 5000 0    60   Input ~ 0
+GND
+$Comp
+L Q_NPN_CBE Q?
+U 1 1 5791DCA4
+P 6300 4800
+F 0 "Q?" H 6200 4900 50  0000 R CNN
+F 1 "Q_NPN_CBE" H 6350 5000 50  0000 R CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6500 4900 50  0001 C CNN
+F 3 "" H 6300 4800 50  0000 C CNN
+	1    6300 4800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 4600 6000 4500
+Wire Wire Line
+	5600 4600 6200 4600
+$Comp
+L R R?
+U 1 1 5791DCA5
+P 6450 5000
+F 0 "R?" V 6530 5000 50  0000 C CNN
+F 1 "10K" V 6450 5000 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 6380 5000 50  0001 C CNN
+F 3 "" H 6450 5000 50  0000 C CNN
+	1    6450 5000
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5791DCA6
+P 6700 4400
+F 0 "D?" H 6700 4500 50  0000 C CNN
+F 1 "LED" H 6700 4300 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 6700 4400 50  0001 C CNN
+F 3 "" H 6700 4400 50  0000 C CNN
+	1    6700 4400
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6200 5000
+Connection ~ 6000 4600
+$Comp
+L LED D?
+U 1 1 5791DCA7
+P 5800 4900
+F 0 "D?" H 5800 5000 50  0000 C CNN
+F 1 "LED" H 5800 4800 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 5800 4900 50  0001 C CNN
+F 3 "" H 5800 4900 50  0000 C CNN
+	1    5800 4900
+	1    0    0    -1  
+$EndComp
+Connection ~ 5600 5000
+$Comp
+L R R?
+U 1 1 5791DCA8
+P 5850 4700
+F 0 "R?" V 5930 4700 50  0000 C CNN
+F 1 "5K" V 5850 4700 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 5780 4700 50  0001 C CNN
+F 3 "" H 5850 4700 50  0000 C CNN
+	1    5850 4700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 4700 5700 4600
+Connection ~ 5700 4600
+Wire Wire Line
+	6000 4700 6000 4900
+Wire Wire Line
+	5600 4900 5600 5000
+Wire Wire Line
+	6500 4800 6600 4800
+Wire Wire Line
+	6600 4800 6600 5000
+Wire Wire Line
+	6600 5000 6700 5000
+Wire Wire Line
+	6700 4600 6700 4700
+Text GLabel 6300 4300 0    60   Input ~ 0
++24V
+Wire Wire Line
+	6300 4300 6300 4500
+$Comp
+L R R?
+U 1 1 5791DCA9
+P 6150 5500
+F 0 "R?" V 6230 5500 50  0000 C CNN
+F 1 "5K" V 6150 5500 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 6080 5500 50  0001 C CNN
+F 3 "" H 6150 5500 50  0000 C CNN
+	1    6150 5500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5791DCAA
+P 6700 5850
+F 0 "R?" V 6780 5850 50  0000 C CNN
+F 1 "10K" V 6700 5850 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 6630 5850 50  0001 C CNN
+F 3 "" H 6700 5850 50  0000 C CNN
+	1    6700 5850
+	1    0    0    -1  
+$EndComp
+Text GLabel 5400 6000 0    60   Input ~ 0
+GND
+$Comp
+L Q_NPN_CBE Q?
+U 1 1 5791DCAB
+P 6300 5800
+F 0 "Q?" H 6200 5900 50  0000 R CNN
+F 1 "Q_NPN_CBE" H 6350 6000 50  0000 R CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6500 5900 50  0001 C CNN
+F 3 "" H 6300 5800 50  0000 C CNN
+	1    6300 5800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	5400 6000 6300 6000
+Wire Wire Line
+	6000 5600 6000 5500
+Wire Wire Line
+	5600 5600 6200 5600
+$Comp
+L R R?
+U 1 1 5791DCAC
+P 6450 6000
+F 0 "R?" V 6530 6000 50  0000 C CNN
+F 1 "10K" V 6450 6000 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 6380 6000 50  0001 C CNN
+F 3 "" H 6450 6000 50  0000 C CNN
+	1    6450 6000
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5791DCAD
+P 6700 5400
+F 0 "D?" H 6700 5500 50  0000 C CNN
+F 1 "LED" H 6700 5300 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 6700 5400 50  0001 C CNN
+F 3 "" H 6700 5400 50  0000 C CNN
+	1    6700 5400
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6200 6000
+Connection ~ 6000 5600
+$Comp
+L LED D?
+U 1 1 5791DCAE
+P 5800 5900
+F 0 "D?" H 5800 6000 50  0000 C CNN
+F 1 "LED" H 5800 5800 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 5800 5900 50  0001 C CNN
+F 3 "" H 5800 5900 50  0000 C CNN
+	1    5800 5900
+	1    0    0    -1  
+$EndComp
+$Comp
+L R R?
+U 1 1 5791DCAF
+P 5450 5600
+F 0 "R?" V 5530 5600 50  0000 C CNN
+F 1 "5K" V 5450 5600 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 5380 5600 50  0001 C CNN
+F 3 "" H 5450 5600 50  0000 C CNN
+	1    5450 5600
+	0    1    1    0   
+$EndComp
+Connection ~ 5600 6000
+$Comp
+L R R?
+U 1 1 5791DCB0
+P 5850 5700
+F 0 "R?" V 5930 5700 50  0000 C CNN
+F 1 "5K" V 5850 5700 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 5780 5700 50  0001 C CNN
+F 3 "" H 5850 5700 50  0000 C CNN
+	1    5850 5700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 5700 5700 5600
+Connection ~ 5700 5600
+Wire Wire Line
+	6000 5700 6000 5900
+Wire Wire Line
+	5600 5900 5600 6000
+Wire Wire Line
+	6500 5800 6600 5800
+Wire Wire Line
+	6600 5800 6600 6000
+Wire Wire Line
+	6600 6000 6700 6000
+Wire Wire Line
+	6700 5600 6700 5700
+Text GLabel 6300 5300 0    60   Input ~ 0
++24V
+Wire Wire Line
+	6300 5300 6300 5500
+$Comp
+L R R?
+U 1 1 5791DCB1
+P 6150 6500
+F 0 "R?" V 6230 6500 50  0000 C CNN
+F 1 "5K" V 6150 6500 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 6080 6500 50  0001 C CNN
+F 3 "" H 6150 6500 50  0000 C CNN
+	1    6150 6500
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5791DCB2
+P 6700 6850
+F 0 "R?" V 6780 6850 50  0000 C CNN
+F 1 "10K" V 6700 6850 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 6630 6850 50  0001 C CNN
+F 3 "" H 6700 6850 50  0000 C CNN
+	1    6700 6850
+	1    0    0    -1  
+$EndComp
+Text GLabel 5400 7000 0    60   Input ~ 0
+GND
+$Comp
+L Q_NPN_CBE Q?
+U 1 1 5791DCB3
+P 6300 6800
+F 0 "Q?" H 6200 6900 50  0000 R CNN
+F 1 "Q_NPN_CBE" H 6350 7000 50  0000 R CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 6500 6900 50  0001 C CNN
+F 3 "" H 6300 6800 50  0000 C CNN
+	1    6300 6800
+	-1   0    0    -1  
+$EndComp
+Wire Wire Line
+	6000 6600 6000 6500
+$Comp
+L R R?
+U 1 1 5791DCB4
+P 6450 7000
+F 0 "R?" V 6530 7000 50  0000 C CNN
+F 1 "10K" V 6450 7000 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 6380 7000 50  0001 C CNN
+F 3 "" H 6450 7000 50  0000 C CNN
+	1    6450 7000
+	0    1    1    0   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5791DCB5
+P 6700 6400
+F 0 "D?" H 6700 6500 50  0000 C CNN
+F 1 "LED" H 6700 6300 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 6700 6400 50  0001 C CNN
+F 3 "" H 6700 6400 50  0000 C CNN
+	1    6700 6400
+	0    -1   -1   0   
+$EndComp
+Connection ~ 6200 7000
+Connection ~ 6000 6600
+$Comp
+L LED D?
+U 1 1 5791DCB6
+P 5800 6900
+F 0 "D?" H 5800 7000 50  0000 C CNN
+F 1 "LED" H 5800 6800 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 5800 6900 50  0001 C CNN
+F 3 "" H 5800 6900 50  0000 C CNN
+	1    5800 6900
+	1    0    0    -1  
+$EndComp
+Connection ~ 5600 7000
+$Comp
+L R R?
+U 1 1 5791DCB7
+P 5850 6700
+F 0 "R?" V 5930 6700 50  0000 C CNN
+F 1 "5K" V 5850 6700 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 5780 6700 50  0001 C CNN
+F 3 "" H 5850 6700 50  0000 C CNN
+	1    5850 6700
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5700 6600 5700 6700
+Connection ~ 5700 6600
+Wire Wire Line
+	6000 6700 6000 6900
+Wire Wire Line
+	5600 6900 5600 7000
+Wire Wire Line
+	6500 6800 6600 6800
+Wire Wire Line
+	6600 6800 6600 7000
+Wire Wire Line
+	6600 7000 6700 7000
+Wire Wire Line
+	6700 6600 6700 6700
+Text GLabel 6300 6300 0    60   Input ~ 0
++24V
+Wire Wire Line
+	6300 6300 6300 6500
+Text GLabel 7100 6200 2    60   Input ~ 0
+LimZ-
+Text GLabel 7100 5200 2    60   Input ~ 0
+LimZ+
+Text GLabel 7100 1200 2    60   Input ~ 0
+LimX+
+Text GLabel 7100 2200 2    60   Input ~ 0
+LimX-
+Text GLabel 7100 3200 2    60   Input ~ 0
+LimY+
+Text GLabel 7100 4200 2    60   Input ~ 0
+LimY-
+Wire Wire Line
+	6700 1200 7100 1200
+Wire Wire Line
+	7100 2200 6700 2200
+Wire Wire Line
+	6700 3200 7100 3200
+Wire Wire Line
+	7100 4200 6700 4200
+Wire Wire Line
+	7100 6200 6700 6200
+Wire Wire Line
+	6700 5200 7100 5200
+Text GLabel 4600 1400 0    60   Input ~ 0
+F1_LIM
+Text GLabel 4600 1600 0    60   Input ~ 0
+F2_LIM
+Text GLabel 4600 2600 0    60   Input ~ 0
+R2_LIM
+Text GLabel 4600 2400 0    60   Input ~ 0
+R1_LIM
+Wire Wire Line
+	5000 2600 4600 2600
+Wire Wire Line
+	4600 2400 5000 2400
+Wire Wire Line
+	5000 2400 5000 2600
+Connection ~ 5000 2600
+Wire Wire Line
+	4600 1400 5000 1400
+Wire Wire Line
+	5000 1400 5000 1600
+Wire Wire Line
+	5000 1600 4600 1600
+$Comp
+L R R?
+U 1 1 5791DCB8
+P 5450 3600
+F 0 "R?" V 5530 3600 50  0000 C CNN
+F 1 "5K" V 5450 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 5380 3600 50  0001 C CNN
+F 3 "" H 5450 3600 50  0000 C CNN
+	1    5450 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5791DCB9
+P 5450 4600
+F 0 "R?" V 5530 4600 50  0000 C CNN
+F 1 "5K" V 5450 4600 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 5380 4600 50  0001 C CNN
+F 3 "" H 5450 4600 50  0000 C CNN
+	1    5450 4600
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5791DCBA
+P 5450 6600
+F 0 "R?" V 5530 6600 50  0000 C CNN
+F 1 "5K" V 5450 6600 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 5380 6600 50  0001 C CNN
+F 3 "" H 5450 6600 50  0000 C CNN
+	1    5450 6600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5600 6600 6200 6600
+Text GLabel 5200 3600 0    60   Input ~ 0
+Y+Lim
+Text GLabel 5200 4600 0    60   Input ~ 0
+Y-Lim
+Text GLabel 5200 5600 0    60   Input ~ 0
+Z+Lim
+Text GLabel 5200 6600 0    60   Input ~ 0
+Z-Lim
+Wire Wire Line
+	5200 3600 5300 3600
+Wire Wire Line
+	5300 4600 5200 4600
+Wire Wire Line
+	5200 5600 5300 5600
+Wire Wire Line
+	5200 6600 5300 6600
+Connection ~ 5000 1600
+$Comp
+L R R?
+U 1 1 5791DCBB
+P 5250 2400
+F 0 "R?" V 5330 2400 50  0000 C CNN
+F 1 "5K" V 5250 2400 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 5180 2400 50  0001 C CNN
+F 3 "" H 5250 2400 50  0000 C CNN
+	1    5250 2400
+	0    1    1    0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5791DCBC
+P 5250 1400
+F 0 "R?" V 5330 1400 50  0000 C CNN
+F 1 "5K" V 5250 1400 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 5180 1400 50  0001 C CNN
+F 3 "" H 5250 1400 50  0000 C CNN
+	1    5250 1400
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 1400 5800 1400
+Wire Wire Line
+	5800 1400 5800 1600
+Connection ~ 5800 1600
+Wire Wire Line
+	5400 2400 5800 2400
+Wire Wire Line
+	5800 2400 5800 2600
+Connection ~ 5800 2600
+Wire Wire Line
+	5400 7000 6300 7000
+$Comp
+L R R?
+U 1 1 5791DCBD
+P 5450 2600
+F 0 "R?" V 5530 2600 50  0000 C CNN
+F 1 "5K" V 5450 2600 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 5380 2600 50  0001 C CNN
+F 3 "" H 5450 2600 50  0000 C CNN
+	1    5450 2600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5400 5000 6300 5000
+Wire Wire Line
+	5400 4000 6300 4000
+Wire Wire Line
+	7550 5600 7650 5600
+Text GLabel 7550 5600 0    60   Input ~ 0
+Z_24V+
+Wire Wire Line
+	7950 5600 8050 5600
+$Comp
+L R R?
+U 1 1 5791DCDF
+P 7800 5600
+F 0 "R?" V 7880 5600 50  0000 C CNN
+F 1 "10K" V 7800 5600 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 7730 5600 50  0001 C CNN
+F 3 "" H 7800 5600 50  0000 C CNN
+	1    7800 5600
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7950 5800 8050 5800
+Text GLabel 7950 5800 0    60   Input ~ 0
+SpindleHallB
+Wire Wire Line
+	7550 4600 7650 4600
+Wire Wire Line
+	7750 4800 8050 4800
+Wire Wire Line
+	8050 4600 7950 4600
+$Comp
+L R R?
+U 1 1 5791DCDE
+P 7800 4600
+F 0 "R?" V 7880 4600 50  0000 C CNN
+F 1 "10K" V 7800 4600 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 7730 4600 50  0001 C CNN
+F 3 "" H 7800 4600 50  0000 C CNN
+	1    7800 4600
+	0    1    1    0   
+$EndComp
+Text GLabel 7550 4600 0    60   Input ~ 0
+Z_24V+
+Text GLabel 7750 4800 0    60   Input ~ 0
+SpindleHallA
+Wire Wire Line
+	8100 1800 8000 1800
+$Comp
+L R R?
+U 1 1 5791DCC3
+P 8000 1650
+F 0 "R?" V 8080 1650 50  0000 C CNN
+F 1 "10K" V 8000 1650 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 7930 1650 50  0001 C CNN
+F 3 "" H 8000 1650 50  0000 C CNN
+	1    8000 1650
+	1    0    0    -1  
+$EndComp
+Connection ~ 8000 2800
+Wire Wire Line
+	7900 2800 7900 3600
+Wire Wire Line
+	8000 2900 8000 2800
+Wire Wire Line
+	8100 3900 7900 3900
+$Comp
+L R R?
+U 1 1 5791DCC1
+P 7900 3750
+F 0 "R?" V 7980 3750 50  0000 C CNN
+F 1 "10K" V 7900 3750 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 7830 3750 50  0001 C CNN
+F 3 "" H 7900 3750 50  0000 C CNN
+	1    7900 3750
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8100 3200 8000 3200
+$Comp
+L R R?
+U 1 1 5791DCC0
+P 8000 3050
+F 0 "R?" V 8080 3050 50  0000 C CNN
+F 1 "10K" V 8000 3050 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 7930 3050 50  0001 C CNN
+F 3 "" H 8000 3050 50  0000 C CNN
+	1    8000 3050
+	1    0    0    -1  
+$EndComp
+Connection ~ 8750 4800
+Wire Wire Line
+	9150 4600 9050 4600
+Wire Wire Line
+	9150 4800 9150 4600
+Wire Wire Line
+	8750 4800 8750 4900
+Text GLabel 8750 4900 2    60   Input ~ 0
+DGND
+Wire Wire Line
+	9150 5600 9050 5600
+Wire Wire Line
+	9150 5800 9150 5600
+Wire Wire Line
+	8650 4600 8750 4600
+Wire Wire Line
+	8650 5600 8750 5600
+$Comp
+L R R?
+U 1 1 5791DCE1
+P 8900 5600
+F 0 "R?" V 8980 5600 50  0000 C CNN
+F 1 "100K" V 8900 5600 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 8830 5600 50  0001 C CNN
+F 3 "" H 8900 5600 50  0000 C CNN
+	1    8900 5600
+	0    -1   -1   0   
+$EndComp
+$Comp
+L R R?
+U 1 1 5791DCE0
+P 8900 4600
+F 0 "R?" V 8980 4600 50  0000 C CNN
+F 1 "100K" V 8900 4600 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 8830 4600 50  0001 C CNN
+F 3 "" H 8900 4600 50  0000 C CNN
+	1    8900 4600
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8750 4700 8650 4700
+Wire Wire Line
+	8750 5700 8650 5700
+Connection ~ 8750 5800
+Wire Wire Line
+	8650 4800 9150 4800
+Wire Wire Line
+	8750 5800 8750 5900
+Wire Wire Line
+	8650 5800 9150 5800
+Text GLabel 8750 5900 2    60   Input ~ 0
+DGND
+$Comp
+L 4N25 U?
+U 1 1 5791DCDD
+P 8350 5700
+F 0 "U?" H 8150 5900 50  0000 L CNN
+F 1 "4N25" H 8350 5900 50  0000 L CNN
+F 2 "Opto-Devices:Optocoupler_SMD_ReflowWaveSoldering_KPC357_LTV35x_PC357_SingleChannel" H 8150 5500 50  0000 L CIN
+F 3 "" H 8350 5700 50  0000 L CNN
+	1    8350 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L 4N25 U?
+U 1 1 5791DCDC
+P 8350 4700
+F 0 "U?" H 8150 4900 50  0000 L CNN
+F 1 "4N25" H 8350 4900 50  0000 L CNN
+F 2 "Opto-Devices:Optocoupler_SMD_ReflowWaveSoldering_KPC357_LTV35x_PC357_SingleChannel" H 8150 4500 50  0000 L CIN
+F 3 "" H 8350 4700 50  0000 L CNN
+	1    8350 4700
+	1    0    0    -1  
+$EndComp
+Text GLabel 8750 5700 2    60   Input ~ 0
+DOut_2
+Text GLabel 8750 4700 2    60   Input ~ 0
+DOut_1
+Connection ~ 8500 1300
+Wire Wire Line
+	8500 1500 8500 1300
+Wire Wire Line
+	8000 1500 8500 1500
+Connection ~ 8500 2000
+Wire Wire Line
+	8500 1800 8500 2000
+Wire Wire Line
+	8400 2000 8600 2000
+Text GLabel 8400 2000 0    60   Input ~ 0
+HomeZ
+$Comp
+L LED D?
+U 1 1 5791DCC2
+P 8300 1800
+F 0 "D?" H 8300 1900 50  0000 C CNN
+F 1 "LED" H 8300 1700 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 8300 1800 50  0001 C CNN
+F 3 "" H 8300 1800 50  0000 C CNN
+	1    8300 1800
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8400 1300 8600 1300
+Text GLabel 8400 1300 0    60   Input ~ 0
+Z_24V+
+Connection ~ 8500 2800
+Connection ~ 8500 2600
+Wire Wire Line
+	8500 3000 8600 3000
+Wire Wire Line
+	8500 2600 8500 3000
+Connection ~ 8500 4100
+Wire Wire Line
+	8500 3900 8500 4100
+Connection ~ 8500 3400
+Wire Wire Line
+	8500 3200 8500 3400
+Wire Wire Line
+	7900 2800 8600 2800
+$Comp
+L LED D?
+U 1 1 5791DCBF
+P 8300 3900
+F 0 "D?" H 8300 4000 50  0000 C CNN
+F 1 "LED" H 8300 3800 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 8300 3900 50  0001 C CNN
+F 3 "" H 8300 3900 50  0000 C CNN
+	1    8300 3900
+	-1   0    0    1   
+$EndComp
+$Comp
+L LED D?
+U 1 1 5791DCBE
+P 8300 3200
+F 0 "D?" H 8300 3300 50  0000 C CNN
+F 1 "LED" H 8300 3100 50  0000 C CNN
+F 2 "LEDs:LED_1206" H 8300 3200 50  0001 C CNN
+F 3 "" H 8300 3200 50  0000 C CNN
+	1    8300 3200
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	8400 4100 8600 4100
+Text GLabel 8400 4100 0    60   Input ~ 0
+HomeY
+Wire Wire Line
+	8400 3400 8600 3400
+Wire Wire Line
+	8600 3400 8600 3600
+Text GLabel 8400 3400 0    60   Input ~ 0
+HomeX
+Wire Wire Line
+	8400 2600 8600 2600
+Text GLabel 8400 2600 0    60   Input ~ 0
+XY_24V+
+Text GLabel 8600 3400 2    60   Input ~ 0
+X1Home-
+Text GLabel 8600 2800 2    60   Input ~ 0
+X1Home+
+Text GLabel 8600 2000 2    60   Input ~ 0
+ZHome-
+Text GLabel 8600 1300 2    60   Input ~ 0
+ZHome+
+Text GLabel 8600 4100 2    60   Input ~ 0
+YHome-
+Text GLabel 8600 3000 2    60   Input ~ 0
+YHome+
+Text GLabel 8600 3600 2    60   Input ~ 0
+X2Home-
+Text GLabel 8600 2600 2    60   Input ~ 0
+X2Home+
+$EndSCHEMATC
