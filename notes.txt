@@ -1,0 +1,7 @@
+Estop logic not complete
+	interrupts the active enable lines on each servo using optocouplers
+Cables:
+	Enable lines are routed via the breakout board
+	Pinout not finalised
+
+
