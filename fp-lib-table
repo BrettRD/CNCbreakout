@@ -1,0 +1,3 @@
+(fp_lib_table
+  (lib (name CNCbreakout)(type KiCad)(uri "$(KIPRJMOD)/CNCbreakout.pretty")(options "")(descr ""))
+)

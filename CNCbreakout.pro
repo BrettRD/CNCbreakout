@@ -1,4 +1,4 @@
-update=Fr 01 Jul 2016 06:52:55 CEST
+update=Mo 22 Aug 2016 08:12:03 CEST
 version=1
 last_client=kicad
 [pcbnew]
@@ -27,7 +27,7 @@ NetIExt=net
 version=1
 [eeschema]
 version=1
-LibDir=
+LibDir=/home/kicad/Documents
 [eeschema/libraries]
 LibName1=power
 LibName2=device
@@ -59,3 +59,5 @@ LibName27=atmel
 LibName28=contrib
 LibName29=valves
 LibName30=references
+LibName31=/home/kicad/Documents/FabLab
+LibName32=FabLab

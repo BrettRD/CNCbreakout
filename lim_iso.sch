@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:references
+LIBS:FabLab
 LIBS:CNCbreakout-cache
 EELAYER 25 0
 EELAYER END
@@ -928,83 +929,17 @@ F 3 "" H 8000 3050 50  0000 C CNN
 	1    8000 3050
 	1    0    0    -1  
 $EndComp
-Connection ~ 8750 4800
-Wire Wire Line
-	9150 4600 9050 4600
-Wire Wire Line
-	9150 4800 9150 4600
-Wire Wire Line
-	8750 4800 8750 4900
-Text GLabel 8750 4900 2    60   Input ~ 0
+Text GLabel 8750 4800 2    60   Input ~ 0
 DGND
 Wire Wire Line
-	9150 5600 9050 5600
+	8750 4600 8650 4600
 Wire Wire Line
-	9150 5800 9150 5600
-Wire Wire Line
-	8650 4600 8750 4600
-Wire Wire Line
-	8650 5600 8750 5600
-$Comp
-L R R339
-U 1 1 5791DCE1
-P 8900 5600
-F 0 "R339" V 8980 5600 50  0000 C CNN
-F 1 "100K" V 8900 5600 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206" V 8830 5600 50  0001 C CNN
-F 3 "" H 8900 5600 50  0000 C CNN
-	1    8900 5600
-	0    -1   -1   0   
-$EndComp
-$Comp
-L R R338
-U 1 1 5791DCE0
-P 8900 4600
-F 0 "R338" V 8980 4600 50  0000 C CNN
-F 1 "100K" V 8900 4600 50  0000 C CNN
-F 2 "Resistors_SMD:R_1206" V 8830 4600 50  0001 C CNN
-F 3 "" H 8900 4600 50  0000 C CNN
-	1    8900 4600
-	0    -1   -1   0   
-$EndComp
-Wire Wire Line
-	8750 4700 8650 4700
-Wire Wire Line
-	8750 5700 8650 5700
-Connection ~ 8750 5800
-Wire Wire Line
-	8650 4800 9150 4800
-Wire Wire Line
-	8750 5800 8750 5900
-Wire Wire Line
-	8650 5800 9150 5800
-Text GLabel 8750 5900 2    60   Input ~ 0
+	8750 5600 8650 5600
+Text GLabel 8750 5800 2    60   Input ~ 0
 DGND
-$Comp
-L 4N25 U302
-U 1 1 5791DCDD
-P 8350 5700
-F 0 "U302" H 8150 5900 50  0000 L CNN
-F 1 "4N25" H 8350 5900 50  0000 L CNN
-F 2 "Opto-Devices:Optocoupler_SMD_ReflowWaveSoldering_KPC357_LTV35x_PC357_SingleChannel" H 8150 5500 50  0000 L CIN
-F 3 "" H 8350 5700 50  0000 L CNN
-	1    8350 5700
-	1    0    0    -1  
-$EndComp
-$Comp
-L 4N25 U301
-U 1 1 5791DCDC
-P 8350 4700
-F 0 "U301" H 8150 4900 50  0000 L CNN
-F 1 "4N25" H 8350 4900 50  0000 L CNN
-F 2 "Opto-Devices:Optocoupler_SMD_ReflowWaveSoldering_KPC357_LTV35x_PC357_SingleChannel" H 8150 4500 50  0000 L CIN
-F 3 "" H 8350 4700 50  0000 L CNN
-	1    8350 4700
-	1    0    0    -1  
-$EndComp
-Text GLabel 8750 5700 2    60   Input ~ 0
+Text GLabel 8750 5600 2    60   Input ~ 0
 DOut_2
-Text GLabel 8750 4700 2    60   Input ~ 0
+Text GLabel 8750 4600 2    60   Input ~ 0
 DOut_1
 Connection ~ 8500 1300
 Wire Wire Line
@@ -1103,4 +1038,30 @@ Wire Wire Line
 	5600 2600 6200 2600
 Wire Wire Line
 	5600 1600 6200 1600
+$Comp
+L TLP291 U302
+U 1 1 57BAE046
+P 8350 5700
+F 0 "U302" H 8150 5900 50  0000 L CNN
+F 1 "TCMT1108" H 8350 5900 50  0000 L CNN
+F 2 "CNCbreakout:TCMT1108" H 8150 5500 50  0000 L CIN
+F 3 "" H 8350 5700 50  0000 L CNN
+	1    8350 5700
+	1    0    0    -1  
+$EndComp
+$Comp
+L TLP291 U301
+U 1 1 57BAE949
+P 8350 4700
+F 0 "U301" H 8150 4900 50  0000 L CNN
+F 1 "TCMT1108" H 8350 4900 50  0000 L CNN
+F 2 "CNCbreakout:TCMT1108" H 8150 4500 50  0000 L CIN
+F 3 "" H 8350 4700 50  0000 L CNN
+	1    8350 4700
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	8750 4800 8650 4800
+Wire Wire Line
+	8650 5800 8750 5800
 $EndSCHEMATC

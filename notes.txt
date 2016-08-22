@@ -1,7 +1,11 @@
 Estop logic not complete
 	interrupts the active enable lines on each servo using optocouplers
+	optos are TCMT1108 4pin open collector by Vishay $0.2 next day at E14
+	Need to route an estop signal to the PC
 Cables:
 	Enable lines are routed via the breakout board
 	Pinout not finalised
+	DE15 and DE9 pcb connectors are by Oupiin available at altronics drawn from datasheet
 
-
+PCB layout:
+	Need to plan cable placement

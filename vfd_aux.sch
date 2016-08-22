@@ -29,6 +29,7 @@ LIBS:atmel
 LIBS:contrib
 LIBS:valves
 LIBS:references
+LIBS:FabLab
 LIBS:CNCbreakout-cache
 EELAYER 25 0
 EELAYER END
