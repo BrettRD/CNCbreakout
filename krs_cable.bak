@@ -77,4 +77,54 @@ Text HLabel 4500 6500 3    60   Input ~ 0
 X2Home-
 Text HLabel 4700 6500 3    60   Input ~ 0
 X2+24V
+Text Label 9000 1200 0    60   ~ 0
+NC
+Text Label 9000 1300 0    60   ~ 0
+NC
+Text Label 9000 1400 0    60   ~ 0
+Pulse+
+Text Label 9000 1500 0    60   ~ 0
+Direction+
+Text Label 9000 1600 0    60   ~ 0
+Direction-
+Text Label 9000 1700 0    60   ~ 0
+Servo_On
+Text Label 9000 1800 0    60   ~ 0
+Positive_Limit
+Text Label 9000 1900 0    60   ~ 0
+NC
+Text Label 9000 2000 0    60   ~ 0
++24V
+Text Label 9000 2100 0    60   ~ 0
+GND
+Text Label 9000 2200 0    60   ~ 0
+Ready
+Text Label 9000 2300 0    60   ~ 0
+In_Position
+Text Label 9000 2400 0    60   ~ 0
+NC
+Text Label 9000 2500 0    60   ~ 0
+Pulse-
+Text Label 9000 2600 0    60   ~ 0
+EncoderZ+
+Text Label 9000 2700 0    60   ~ 0
+EncoderZ-
+Text Label 9000 2800 0    60   ~ 0
+EncoderB-
+Text Label 9000 3000 0    60   ~ 0
+EncoderA-
+Text Label 9000 2900 0    60   ~ 0
+EncoderB+
+Text Label 9000 3100 0    60   ~ 0
+EncoderA+
+Text Label 9000 3200 0    60   ~ 0
+Negative_Limit
+Text Label 9000 3300 0    60   ~ 0
+NC
+Text Label 9000 3400 0    60   ~ 0
+Alarm
+Text Label 9000 3500 0    60   ~ 0
+NC
+Text Label 9000 3600 0    60   ~ 0
+Home
 $EndSCHEMATC
