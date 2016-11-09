@@ -35,7 +35,7 @@ EELAYER 25 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 5 5
+Sheet 4 4
 Title ""
 Date ""
 Rev ""
@@ -45,19 +45,15 @@ Comment2 ""
 Comment3 ""
 Comment4 ""
 $EndDescr
-Text HLabel 2600 4000 0    60   Input ~ 0
-Y_GND
-Text HLabel 2600 4100 0    60   Input ~ 0
-Y+Lim
-Text HLabel 2600 4200 0    60   Input ~ 0
-Y-Lim
 Text HLabel 2600 4300 0    60   Input ~ 0
-YEN+
-Text HLabel 2600 4400 0    60   Input ~ 0
-YEN-
+Y_GND
+Text HLabel 2600 4000 0    60   Input ~ 0
+Y+Lim
+Text HLabel 2600 4150 0    60   Input ~ 0
+Y-Lim
 Text HLabel 2600 4600 0    60   Input ~ 0
 YHome-
-Text HLabel 2600 4800 0    60   Input ~ 0
+Text HLabel 2600 4450 0    60   Input ~ 0
 Y+24V
 Text HLabel 2600 6000 0    60   Input ~ 0
 Z_GND
@@ -177,70 +173,6 @@ Text Label 2000 2700 2    60   ~ 0
 NC
 Text Label 2000 2800 2    60   ~ 0
 Shield
-Wire Wire Line
-	2000 1400 9700 1400
-Wire Wire Line
-	9700 1500 2000 1500
-Wire Wire Line
-	2000 1600 9700 1600
-Wire Wire Line
-	9700 1700 2000 1700
-Wire Wire Line
-	2000 1300 9700 1300
-Wire Wire Line
-	2000 1200 5000 1200
-Wire Wire Line
-	5100 1200 9700 1200
-Wire Wire Line
-	2600 4400 5000 4400
-Wire Wire Line
-	5000 4400 5000 1200
-Wire Wire Line
-	2600 4300 5100 4300
-Wire Wire Line
-	5100 4300 5100 1200
-Wire Wire Line
-	2000 2000 9700 2000
-Wire Wire Line
-	9700 2100 2000 2100
-Wire Wire Line
-	2000 2200 9700 2200
-Wire Wire Line
-	9700 2300 2000 2300
-Wire Wire Line
-	2000 2400 9700 2400
-Wire Wire Line
-	9700 2600 9200 2600
-Wire Wire Line
-	9200 2600 9200 4600
-Wire Wire Line
-	9200 4600 2600 4600
-Wire Wire Line
-	9300 2700 9700 2700
-Wire Wire Line
-	2000 2900 9700 2900
-Wire Wire Line
-	9700 2800 9400 2800
-Wire Wire Line
-	9700 3000 2000 3000
-Wire Wire Line
-	2000 3100 9700 3100
-Wire Wire Line
-	9700 3200 2000 3200
-Wire Wire Line
-	2000 3300 9700 3300
-Wire Wire Line
-	9700 3400 2000 3400
-Wire Wire Line
-	2000 3500 9700 3500
-Wire Wire Line
-	9700 3600 2000 3600
-Wire Wire Line
-	2000 3700 9700 3700
-Wire Wire Line
-	2600 4100 9300 4100
-Wire Wire Line
-	2600 4200 9400 4200
 $Comp
 L CONN_01X26 P401
 U 1 1 57C02ACE
@@ -253,19 +185,82 @@ F 3 "" H 10600 2450 50  0000 C CNN
 	1    0    0    -1  
 $EndComp
 Wire Wire Line
-	7200 4800 2600 4800
+	2600 4150 3200 4150
 Wire Wire Line
-	7200 1800 7200 4800
+	3100 4000 2600 4000
 Wire Wire Line
-	7200 2500 9700 2500
+	7150 2500 7150 4450
+Connection ~ 3200 1900
+Connection ~ 3100 1800
 Wire Wire Line
-	7200 1800 9700 1800
-Connection ~ 7200 2500
+	2000 1900 9700 1900
 Wire Wire Line
-	9700 1900 7200 1900
-Connection ~ 7200 1900
+	3200 4150 3200 1900
 Wire Wire Line
-	9400 4200 9400 2800
+	3100 1800 3100 4000
 Wire Wire Line
-	9300 4100 9300 2700
+	2000 1800 9700 1800
+Wire Wire Line
+	7150 2500 9700 2500
+Wire Wire Line
+	7150 4450 2600 4450
+Wire Wire Line
+	2000 3700 9700 3700
+Wire Wire Line
+	9700 3600 2000 3600
+Wire Wire Line
+	2000 3500 9700 3500
+Wire Wire Line
+	9700 3400 2000 3400
+Wire Wire Line
+	2000 3300 9700 3300
+Wire Wire Line
+	9700 3200 2000 3200
+Wire Wire Line
+	2000 3100 9700 3100
+Wire Wire Line
+	9700 3000 2000 3000
+Wire Wire Line
+	2000 2900 9700 2900
+Wire Wire Line
+	7300 4600 2600 4600
+Wire Wire Line
+	7300 2600 7300 4600
+Wire Wire Line
+	9700 2600 7300 2600
+Wire Wire Line
+	2000 2400 9700 2400
+Wire Wire Line
+	9700 2300 2000 2300
+Wire Wire Line
+	2000 2200 9700 2200
+Wire Wire Line
+	9700 2100 2000 2100
+Wire Wire Line
+	2000 2000 9700 2000
+Wire Wire Line
+	2000 1200 9700 1200
+Wire Wire Line
+	2000 1300 9700 1300
+Wire Wire Line
+	9700 1700 2000 1700
+Wire Wire Line
+	2000 1600 9700 1600
+Wire Wire Line
+	9700 1500 2000 1500
+Wire Wire Line
+	2000 1400 9700 1400
+Wire Wire Line
+	9500 4300 2600 4300
+Wire Wire Line
+	9500 2700 9500 4300
+Wire Wire Line
+	9500 2700 9700 2700
+Wire Wire Line
+	9700 2800 9500 2800
+Connection ~ 9500 2800
+Wire Wire Line
+	3300 2000 3300 4300
+Connection ~ 3300 4300
+Connection ~ 3300 2000
 $EndSCHEMATC
